@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adwaith Dinesh — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">›_</span>
+        <div class="brand-text">
+          <h1 class="name">Adwaith Dinesh</h1>
+          <p class="role">Aspiring Cloud Security Engineer</p>
+        </div>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="siteNav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="location">Thiruvananthapuram, Kerala</p>
+          <h2 class="tagline">Building secure cloud systems & readable code — one commit at a time.</h2>
+
+          <p class="intro">
+            Hi — I'm <strong>Adwaith</strong>, an Integrated M.Tech CSE student at VIT-AP focused on Cloud Security,
+            SOC analysis and secure systems. I craft practical projects, solve hard engineering problems and enjoy
+            building accessible, high-performance frontends for security tools.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+
+          <ul class="links-inline">
+            <li><a href="https://github.com/adwaithdinesh" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/adwaithdinesh" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:adwaidhdinesh2006@gmail.com">Email</a></li>
+          </ul>
+        </div>
+
+        <aside class="hero-right terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="title">~/portfolio</span>
+          </div>
+
+          <pre class="terminal-body" aria-hidden="false">
+$ whoami
+AdwaithD
+
+$ location
+Thiruvananthapuram, Kerala
+
+$ focus
+Cloud Security · SOC · Secure Systems · Frontend
+
+$ current
+Integrated M.Tech CSE @ VIT-AP (Expected 2028)
+          </pre>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container section-inner">
+        <h3 class="section-title">About</h3>
+        <div class="about-grid">
+          <div>
+            <p>
+              I’m a pragmatic engineer who enjoys end-to-end ownership: from designing secure architectures to shipping
+              usable interfaces. My interests include Cloud Security, SOC workflows, secure system development, and
+              building accessible cross-platform apps.
+            </p>
+
+            <p>
+              I value readable code, automated testing, and small, iterative improvements. Outside of code I run,
+              tinker with hardware projects (like robotics), and explore vulnerability research.
+            </p>
+          </div>
+
+          <div class="quick-facts card">
+            <h4>Quick facts</h4>
+            <ul>
+              <li><strong>Full name:</strong> Adwaith Dinesh</li>
+              <li><strong>Role:</strong> Aspiring Cloud Security Engineer</li>
+              <li><strong>Location:</strong> Thiruvananthapuram, Kerala</li>
+              <li><strong>Email:</strong> adwaidhdinesh2006@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container section-inner">
+        <h3 class="section-title">Education</h3>
+
+        <div class="edu-card card">
+          <div class="edu-left">
+            <p class="university">VIT-AP University</p>
+            <p class="degree">Integrated M.Tech — Computer Science & Engineering</p>
+          </div>
+          <div class="edu-right">
+            <p class="grad">Expected Graduation: <span>2028</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container section-inner">
+        <h3 class="section-title">Technical Skills</h3>
+
+        <div class="skills-grid">
+          <div class="skill-col">
+            <h4>Languages</h4>
+            <p class="skill-list">Python · JavaScript · C · Java</p>
+          </div>
+
+          <div class="skill-col">
+            <h4>Tools & Platforms</h4>
+            <p class="skill-list">React Native · Firebase · Git · Docker · Kubernetes · AWS</p>
+          </div>
+
+          <div class="skill-col">
+            <h4>Core Concepts</h4>
+            <p class="skill-list">Cloud Security · SOC Analysis · Secure System Design · Data Structures · OS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container section-inner">
+        <h3 class="section-title">Selected Projects</h3>
+
+        <div class="projects-grid">
+          <article class="project card">
+            <h4 class="project-title">River Cleaner Robot</h4>
+            <p class="project-desc">
+              An autonomous robotic system with a conveyor mechanism to collect floating debris and sort waste,
+              designed for real-world river cleanup scenarios. Focus: mechatronics, control logic, and embedded sensors.
+            </p>
+            <p class="project-meta"><strong>Tech:</strong> Embedded C · Arduino · Sensors · Conveyor Mechanism</p>
+          </article>
+
+          <article class="project card">
+            <h4 class="project-title">Sign Language → Speech Converter</h4>
+            <p class="project-desc">
+              A prototype that converts sign gestures into speech using a camera + ML pipeline. Goal: assistive tech
+              for real-time communication between deaf and hearing people.
+            </p>
+            <p class="project-meta"><strong>Tech:</strong> Python · OpenCV · TensorFlow · Flask</p>
+          </article>
+
+          <article class="project card">
+            <h4 class="project-title">SafeHer (Mobile App)</h4>
+            <p class="project-desc">
+              Cross-platform safety app built with React Native and Firebase — quick SOS, trusted contacts, live location
+              sharing and incident reporting. Built for a campus safety hackathon.
+            </p>
+            <p class="project-meta"><strong>Tech:</strong> React Native · Firebase · Expo</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="section interests">
+      <div class="container section-inner">
+        <h3 class="section-title">Interests</h3>
+
+        <div class="interests-grid">
+          <div class="card">
+            <h4>Hobbies</h4>
+            <p>Running · Robotics · Capture & analyze telemetry · Exploring open-source security tools</p>
+          </div>
+
+          <div class="card">
+            <h4>Soft skills</h4>
+            <p>Problem solving · Team collaboration · Technical communication · Mentoring peers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container section-inner">
+        <h3 class="section-title">Contact</h3>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <h4>Let's connect</h4>
+            <p>If you'd like to collaborate, have internship opportunities, or want to chat about cloud security — send a message.</p>
+
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:adwaidhdinesh2006@gmail.com">adwaidhdinesh2006@gmail.com</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/adwaithdinesh" target="_blank" rel="noopener">github.com/adwaithdinesh</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/adwaithdinesh" target="_blank" rel="noopener">linkedin.com/in/adwaithdinesh</a></li>
+            </ul>
+          </div>
+
+          <form class="card contact-form" action="mailto:adwaidhdinesh2006@gmail.com" method="post" enctype="text/plain">
+            <label>
+              <span class="label">Your name</span>
+              <input type="text" name="name" placeholder="Jane Doe" required>
+            </label>
+
+            <label>
+              <span class="label">Your email</span>
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+
+            <label>
+              <span class="label">Message</span>
+              <textarea name="message" rows="4" placeholder="Hi Adwaith — interested in collaborating..." required></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary small">Send</button>
+              <button type="reset" class="btn btn-ghost small">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Adwaith Dinesh — Built with HTML & CSS. Designed with a terminal-first aesthetic.</p>
+      <p class="tiny">Theme: Dark / Hacker · Monospace headings · Responsive single-page</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    (function(){
+      const nav = document.getElementById('siteNav');
+      const btn = document.getElementById('navToggle');
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+
+      // Close nav on link click (mobile)
+      Array.from(nav.querySelectorAll('a')).forEach(a => {
+        a.addEventListener('click', () => {
+          nav.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    }());
+  </script>
+</body>
+</html>
